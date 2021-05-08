@@ -19,3 +19,16 @@ print("{1} {0}".format(3,4)) # this will call in an array form
 print("\"this is a qoute \"")
 print( """ this is 
  a block""" ) ## this ia block text
+
+print("my name is randy\n" * 5) #Using * to repeat a line
+print(r"my name is randy") #Using r to print raw string
+print (1==1) # return a true or false Boolean
+print (1==2) #equal to
+print (1!=2) #not equal to
+print (1 > 2)
+print ( 1< 2)
+print (1 <= 2)
+print (1 >= 2)
+
+print( "yes" or "No")
+print("Why" and "Okay")
