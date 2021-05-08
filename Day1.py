@@ -31,4 +31,22 @@ print (1 <= 2)
 print (1 >= 2)
 
 print( "yes" or "No")
-print("Why" and "Okay")
+print("Why" and "Okay\n")
+
+
+##Day 1 Assginment
+#Ask for your name,count and print out
+
+print("\"Hello Welcome\"""\nPlease enter your name:")
+myName=input()
+
+print("\nThank you {}".format(myName))
+print("this lent of your name is:")
+print(len(myName)) ## len counts the number of aphabets
+print("how old are you " + myName)
+Age=input()
+print ("you'll be " + str(int(Age) + 5) + " in  in 5 yrs time")
+print ( len("my day is are numbered")) # len
+print ( str(10)) # str change an integer into a string
+print(round(10.5)) #rounds to the nearing number
+print(float(10.10)) #print the same number
