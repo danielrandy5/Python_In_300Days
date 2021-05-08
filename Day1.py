@@ -15,3 +15,7 @@ print("this is good {} \n\t but will only {} work here" .format("okay","didi5"))
 
 print(" this will work if i make this ")
 print("{1} {0}".format(3,4)) # this will call in an array form
+
+print("\"this is a qoute \"")
+print( """ this is 
+ a block""" ) ## this ia block text
